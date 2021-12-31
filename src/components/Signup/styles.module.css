@@ -1,0 +1,44 @@
+.signup1{
+     padding: 15px 50px;
+     position: absolute;
+     top: 200px;
+     border-radius: 10px;
+}
+.signup2{
+    padding: 15px 50px;
+    position: absolute;
+    top: 280px;
+    border-radius: 10px;
+}
+.signup3{
+    padding: 15px 50px;
+    position: absolute;
+    top: 360px;
+    border-radius: 10px;
+}
+.signup4{
+    padding: 15px 50px;
+    position: absolute;
+    top: 440px;
+    border-radius: 10px;
+}
+.signup5{
+    padding: 15px 30px;
+    position: absolute;
+    top: 520px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.signupmain{
+    display: flex;
+    justify-content: center;
+}
+.signupimage{
+    width: 100%;
+}
+@media screen and (max-width: 500px) {
+    .signupimage{
+        height: 730px;
+    }
+    }

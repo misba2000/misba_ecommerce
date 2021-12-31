@@ -1,0 +1,144 @@
+/* .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    position: relative;
+}
+
+
+
+
+ .box{
+     position: absolute;
+     top: 100px;
+     left: 600px;
+    width: 400px;
+    height: 350px;
+    background-color: teal;
+    border: 2px solid black;
+  
+ } 
+
+.in11{
+    font-size: 15px;
+    padding: 15px 50px;
+    position: absolute;
+    top: 30px;
+    border-radius: 10px;
+    
+}
+.in12{
+    position: absolute;
+    top: 110px;
+    font-size: 15px;
+    padding: 15px 50px;
+    border-radius: 10px;
+}
+.in13{
+    position: absolute;
+    top: 200px;
+    font-size: 15px;
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+.in14{
+    position: absolute;
+    top: 270px;
+    left: 150px;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.logged{
+  display: flex;
+  justify-content: center;
+ 
+ 
+   
+}
+.required{
+    position: absolute;
+    top: 85px;
+    left: 140px;
+    color: crimson;
+}
+.required1{
+    position: absolute;
+    top: 170px;
+    left: 140px;
+    color: crimson;
+}
+.img{
+    width: 100%;
+}
+@media screen and (max-width: 500px) {
+    .img{
+        height: 730px;
+    }
+    .in11{
+        font-size: 15px;
+        padding: 15px 25px;
+        position: absolute;
+        top: 30px;
+        border-radius: 10px;
+        
+    }
+    .in12{
+        position: absolute;
+        top: 110px;
+        font-size: 15px;
+        padding: 15px 25px;
+        border-radius: 10px;
+    }
+    .in13{
+        position: absolute;
+        top: 190px;
+        font-size: 15px;
+        padding: 15px 60px;
+        border-radius: 10px;
+    }
+    .in14{
+         position: absolute;
+        top: 265px;
+        left: 115px;
+        font-size: 15px;
+        padding: 12px 10px;
+        border-radius: 5px;
+      
+    }
+    .required{
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        color: rgb(255, 0, 0);
+    }
+    .required1{
+        position: absolute;
+        top: 160px;
+        left: 100px;
+        color:  rgb(255, 0, 0);
+    }
+    .box{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+     
+       width: 300px;
+       height: 350px;
+       background-color: teal;
+       border: 2px solid black;
+       border-radius: 15px;
+     
+    }
+}
